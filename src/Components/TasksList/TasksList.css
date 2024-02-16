@@ -1,0 +1,24 @@
+.tasks-list-container {
+  color: var(--color-white);
+  width: 400px;
+  height: 600px;
+  background-color: var(--color-accent);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.button-submit {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  width: 120px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.tasks-list__items {
+  margin-top: 10px;
+  height: 550px;
+  width: 430px;
+  overflow-y: scroll;
+}

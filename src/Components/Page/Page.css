@@ -1,0 +1,8 @@
+.main {
+  background-size: cover;
+  background-color: var(--color-primary);
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.login-container {
+  max-width: 500px;
+  margin: -70px auto 50px;
+}
+
+.login-form {
+  background-color: var(--color-accent);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.login-oauth-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login-oauth-container__item {
+  cursor: pointer;
+  padding: 0 10px;
+  font-size: 40px;
+}

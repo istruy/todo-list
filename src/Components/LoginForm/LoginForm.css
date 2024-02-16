@@ -1,0 +1,10 @@
+.login-form__header {
+  color: var(--color-white);
+}
+
+.login-form__button {
+  text-transform: none;
+  margin: 0 auto;
+  font-weight: 500;
+  width: 250px;
+}

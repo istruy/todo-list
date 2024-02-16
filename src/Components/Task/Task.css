@@ -1,0 +1,11 @@
+.task-item {
+  display: flex;
+  align-items: start;
+  min-height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task-item__icon {
+  width: 10px;
+}
