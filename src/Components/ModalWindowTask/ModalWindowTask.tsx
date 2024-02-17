@@ -111,7 +111,7 @@ export const ModalWindowTask: FC<TProps> = ({ open, handleClose, task, onDoneCli
           <Grid container rowSpacing={2} sx={{ display: 'flex', flexDirection: 'row', gap: '20px' }}>
             <Grid xs={12} sx={{ display: 'flex', WebkitJustifyContent: 'space-between' }}>
               <Typography id="modal-modal-title" variant="h6" component="h2">
-                Создать новую задачу
+                {task ? 'Редактирование задачи' : 'Создать новую задачу'}
               </Typography>
               <CloseIcon onClick={handleClose} sx={{ cursor: 'pointer' }} />
             </Grid>
