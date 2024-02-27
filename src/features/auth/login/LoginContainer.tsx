@@ -10,6 +10,7 @@ import { ProviderId } from '@firebase/auth';
 import { TLoginWithEmailAndPasswordResult } from '../types';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from '../../../styles';
+import Alert from '@mui/material/Alert';
 import './LoginContainer.css';
 
 type TLoginFormFieldState = Omit<TLoginField, 'onChange'>;
@@ -137,6 +138,9 @@ export const LoginContainer: FC = () => {
           </div>
         </div>
       </div>
+      <Alert severity="info">
+        Пользователь с админ правами - логин: admin@admin.ru, пароль: admin12345 (регистрация не реализована)
+      </Alert>
     </ThemeProvider>
   );
 };
